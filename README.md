@@ -3,3 +3,6 @@
 ## Pe̍h-ōe-jī Chhiú-siá Liān-si̍p Chóa Chè-chō Ki-á
 POJ Handwriting Practice Generator
 [https://kesi.poj.tw/LiansipChoa/](https://kesi.poj.tw/LiansipChoa/)
+
+
+© Tâi-bûn Ke-si Mī [https://linktr.ee/taibunkesimi](https://linktr.ee/taibunkesimi)
