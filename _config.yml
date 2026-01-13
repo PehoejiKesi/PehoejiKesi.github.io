@@ -1,0 +1,67 @@
+# Site settings
+title: Pe̍h-ōe-jī Ke-si
+email: taibunkesimi+pehoejiksi@gmail.com
+url: https://github.com/jeromelachaud/freelancer-theme
+description: "Chit ê bāng-chām chéng-lí 1 kóa Pe̍h-ōe-jī ê ke-si, hong-piān tāi-ke lâi sú-iōng!"
+keywords: "POJ, tool, 白話字, 工具"
+skills: "白話字工具"
+meta_author: Tâi-bûn Ke-si-mī
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: FCEE0A # Neon Yellow
+  primary-rgb: "252,238,10"
+  secondary: 00F0FF # Electric Blue
+  secondary_dark: 0d0d0d # Deep Black
+
+# Footer settings
+footer:
+  location: Koán-lí
+  social: Tâi-bûn Ke-si Mī Bāng-chām
+  credits: Kám-siā
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  # - title: twitter
+  #   url: http://twitter.com/jekyllrb
+  # - title: facebook
+  #   url:
+  # - title: stack-overflow
+  #   url: http://stackoverflow.com/questions/tagged/jekyll
+  # - title: bitbucket
+  #   url: http://bitbucket.org/jekyll
+  # - title: github
+  #   url: http://github.com/jekyll
+  - title: linktree
+    url: https://linktr.ee/taibunkesimi
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Tâi-bûn Ke-si Mī
+
+# Credits content
+credits: 'Kám-siā chē-chē bîn-kan iú-chì, ūi lán Tâi-oân thoân-thóng gí-bûn phah-piàⁿ!'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+#for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: "/posts/:title/"
