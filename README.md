@@ -40,6 +40,11 @@ description: Tiān-náu Tâi-gí Su-ji̍p-hoat.
 link: [https://chhoe.taigi.info/](https://chhoe.taigi.info/)
 description: Siōng chē chu-liāu, siōng hó iōng ê Tâi-gí gí-sû chu-liāu khò͘.
 
+### 芋圓台語字典
+
+link: [https://portaly.cc/taro.dict](https://portaly.cc/taro.dict)
+description: 台灣人必備的語言學習App。
+
 ## Giàn-mh (Game)
 
 ### Siang-siang-tùi-tùi Kì-ek Giàn-mh
@@ -72,6 +77,13 @@ description: Khòaⁿ iáⁿ-phìⁿ, o̍h Tâi-gí sû.
 
 link: [https://cyberoohim.github.io/tl_poj_extension/](https://cyberoohim.github.io/tl_poj_extension/)
 description: Sûi kā KIP Lô-má-jī Pheng-im Hong-àn choán chò Tâi-oân Pe̍h-ōe-jī (POJ).
+
+## Tē-tô͘ (地圖)
+
+### 台語歐洲地圖
+
+link: [https://www.facebook.com/share/p/1CPsxUTa4z/](https://www.facebook.com/share/p/1CPsxUTa4z/)
+description: 「圖地」製作ê台語歐洲地圖
 
 ## Chu-goân (資源)
 
