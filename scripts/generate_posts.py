@@ -133,12 +133,16 @@ async def main():
     # User requested same date for all: 2000-01-01
     date_str = start_date.strftime("%Y-%m-%d")
 
+    # Calculate zero-padding width based on total number of items
+    total_items = len(items)
+    padding_width = len(str(total_items))
+
     for idx, item in enumerate(items, start=1):
-        # User requested content modal-id to be 1, 2, 3... (just the integer)
-        modal_id = idx
+        # Zero-padded modal-id based on total count
+        modal_id = str(idx).zfill(padding_width)
         
         # Filename pattern needs to be unique and ordered: 2000-01-01-{idx}
-        filename_id = f"{date_str}-{idx}"
+        filename_id = f"{date_str}-{modal_id}"
         
         img_filename = f"{modal_id}.png"
         img_path = os.path.join(IMG_DIR, img_filename)

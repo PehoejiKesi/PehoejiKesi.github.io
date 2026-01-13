@@ -9,7 +9,7 @@ body {
     overflow-x: hidden;
     background-color: var(--color-secondary-dark);
     color: #e0e0e0;
-    font-family: 'TASA Explorer', sans-serif;
+    font-family: 'TASA Explorer', 'Huninn', sans-serif;
 }
 
 /* Glitch Effect Class */
@@ -166,7 +166,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: 'TASA Explorer', sans-serif;
+    font-family: 'TASA Explorer', 'Huninn', sans-serif;
     font-weight: 700;
     letter-spacing: 2px;
 }
@@ -243,7 +243,7 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: 'TASA Explorer', sans-serif;
+    font-family: 'TASA Explorer', 'Huninn', sans-serif;
     font-size: 2em;
     font-weight: 700;
     color: var(--color-secondary);
@@ -298,7 +298,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: 'TASA Explorer', sans-serif;
+    font-family: 'TASA Explorer', 'Huninn', sans-serif;
     font-weight: 700;
 }
 
@@ -420,7 +420,7 @@ section.success h2 {
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
     margin: 0;
-    font-family: 'TASA Explorer', sans-serif;
+    font-family: 'TASA Explorer', 'Huninn', sans-serif;
 }
 
 #portfolio * {
@@ -482,7 +482,7 @@ section.success h2 {
     background-color: var(--color-primary);
     border-color: var(--color-primary);
     color: #000;
-    font-family: 'TASA Explorer', sans-serif;
+    font-family: 'TASA Explorer', 'Huninn', sans-serif;
     font-weight: bold;
 }
 
@@ -526,8 +526,7 @@ section.success h2 {
     margin: 0;
     font-size: .85em;
     line-height: 1.764705882em;
-    vertical-align: middle;
-    vertical-align: baseline;
+
     opacity: 0;
     -webkit-transition: top .3s ease, opacity .3s ease;
     -moz-transition: top .3s ease, opacity .3s ease;
