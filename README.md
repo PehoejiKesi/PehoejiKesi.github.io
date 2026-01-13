@@ -7,6 +7,39 @@ Lí ē-tàng chiàu ē-té kiàn-pún kái chit ki tòng-àn, sàng PR lâi. Kî
 ### = title
 ```
 
+## Su-ji̍p-hoat (輸入法)
+
+### PhahTaigi (Android)
+
+link: [http://bit.ly/PhahTaigi-Android](http://bit.ly/PhahTaigi-Android)
+description: Android Chhiú-ki-á Tâi-gí Su-ji̍p-hoat.
+
+### PhahTaigi (iOS)
+
+link: [http://bit.ly/PhahTaigi-iOS](http://bit.ly/PhahTaigi-iOS)
+description: iOS Tâi-gí Su-ji̍p-hoat.
+
+### Lohankha台語輸入法 (iOS)
+
+link: [https://lohankha.tw/](https://lohankha.tw/)
+description: Lohankha台語輸入法(台語：羅漢跤台語輸入法，Lô-hàn-kha Tâi-gú su-jı̍p-huat)支援羅馬字(LOmaji)，漢字(HANji)，韓文諺文(한글，HANgul)，日文假名(かな，KHÁ-nah)輸入，適合全羅、漢羅、全漢等台文書寫方式。
+
+### 台語齒盤 - 台語輸入法 (Android/iOS)
+
+link: [https://taigikeyboard.tw/](https://taigikeyboard.tw/)
+description: 簡單、方便、裝了隨用ê台語齒盤。
+
+### 信望愛台語客語輸入法 (Windows/Mac)
+link: [https://taigi.fhl.net/TaigiIME/](https://taigi.fhl.net/TaigiIME/)
+description: Tiān-náu Tâi-gí Su-ji̍p-hoat.
+
+## Sû-tián (詞典)
+
+### ChhoeTaigi 台語辭典⁺
+
+link: [https://chhoe.taigi.info/](https://chhoe.taigi.info/)
+description: Siōng chē chu-liāu, siōng hó iōng ê Tâi-gí gí-sû chu-liāu khò͘.
+
 ## Giàn-mh (Game)
 
 ### Siang-siang-tùi-tùi Kì-ek Giàn-mh
@@ -26,16 +59,23 @@ description: Khòaⁿ Tâi-gí sû, ioh Eng-gí.
 link: [https://kesi.poj.tw/LiansipChoa/](https://kesi.poj.tw/LiansipChoa/)
 description: Chè-chō Pe̍h-ōe-jī chhiú-siá liān-si̍p chóa PDF tòng-àn ê ke-si.
 
-## Iáⁿ-phìⁿ
+## Iáⁿ-phìⁿ (影片)
 
 ### Tâi-gí Reel
 
 link: [https://hangkapiphang.github.io/taigi/views/index.html](https://hangkapiphang.github.io/taigi/views/index.html)
 description: Khòaⁿ iáⁿ-phìⁿ, o̍h Tâi-gí sû.
 
-## Bûn-jī
+## Bûn-jī (文字)
 
 ### TL 拼音 -> POJ 隨時轉
 
 link: [https://cyberoohim.github.io/tl_poj_extension/](https://cyberoohim.github.io/tl_poj_extension/)
 description: Sûi kā KIP Lô-má-jī Pheng-im Hong-àn choán chò Tâi-oân Pe̍h-ōe-jī (POJ).
+
+## Chu-goân (資源)
+
+### Tâi-bûn Ke-si Mī 台文雞絲麵
+
+link: [https://linktr.ee/taibunkesimi](https://linktr.ee/taibunkesimi)
+description: 「台文雞絲麵」計劃teh發展利便台語文學習ê ke-si（工具），請做伙來使用、贊助支持！
