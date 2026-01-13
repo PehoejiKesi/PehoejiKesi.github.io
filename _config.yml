@@ -27,13 +27,13 @@ color:
   secondary_dark: 0d0d0d # Deep Black
 
 # Footer settings
+# Footer settings
 footer:
-  location: Koán-lí
-  social: Tâi-bûn Ke-si Mī Bāng-chām
+  manager_title: Koán-lí # Manager
   credits: Kám-siā
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
+# social:
   # - title: twitter
   #   url: http://twitter.com/jekyllrb
   # - title: facebook
@@ -44,12 +44,11 @@ social:
   #   url: http://bitbucket.org/jekyll
   # - title: github
   #   url: http://github.com/jekyll
-  - title: linktree
-    url: https://linktr.ee/taibunkesimi
 
-# Postal address (add as many lines as necessary)
-address:
-  - line: Tâi-bûn Ke-si Mī
+# Manager information
+manager:
+  name: Tâi-bûn Ke-si Mī
+  url: "https://linktr.ee/taibunkesimi" # Set the manager's URL here
 
 # Credits content
 credits: 'Kám-siā chē-chē bîn-kan iú-chì, ūi lán Tâi-oân thoân-thóng gí-bûn phah-piàⁿ!'

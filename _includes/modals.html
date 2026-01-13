@@ -20,25 +20,15 @@
             <p>{{ post.description }}</p>
             {% endif %}
             <ul class="list-inline item-details">
-              {% if post.client %}
-              <li>Client:
-                <strong>{{ post.client }}</strong>
-              </li>
-              {% endif %}
-              {% if post.project-date %}
-              <li>Date:
-                <strong>{{ post.project-date }}</strong>
-              </li>
-              {% endif %}
               {% if post.category %}
-              <li>Service:
+              <li>Hun-lūi:
                 <strong>{{ post.category }}</strong>
               </li>
               {% endif %}
             </ul>
             {% if post.link %}
-            <a href="{{ post.link }}" class="btn btn-default" target="_blank"><i class="fa fa-link"></i> Visit
-              Project</a>
+            <a href="{{ post.link }}" class="btn btn-default" target="_blank"
+              style="padding-left: 20px; padding-right: 20px;"><i class="fa fa-link"></i> Bāng-chām</a>
             {% endif %}
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
               Close</button>

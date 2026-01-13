@@ -2,7 +2,7 @@ import os
 import re
 import hashlib
 import asyncio
-from datetime import datetime
+from datetime import datetime, timedelta
 from playwright.async_api import async_playwright
 from PIL import Image
 
@@ -35,7 +35,7 @@ def parse_readme():
             if not current_category:
                 i += 1
                 continue
-                
+            
             title = line[4:].strip()
             link = None
             description = None
@@ -49,7 +49,7 @@ def parse_readme():
                 
                 if subline.startswith('link:'):
                     # Extract link URL from markdown link [desc](url) or plain url
-                    match = re.search(r'\((.*?)\)|(https?://\S+)', subline[5:].strip())
+                    match = re.search(r'\[.*?\]\((.*?)\)|(https?://\S+)', subline[5:].strip())
                     if match:
                         link = match.group(1) or match.group(2)
                 elif subline.startswith('description:'):
@@ -91,16 +91,9 @@ async def capture_screenshot(url, output_path):
         finally:
             await browser.close()
 
-def generate_post_content(item, modal_id, img_filename):
-    # Using a fixed date or current date? 
-    # For reproducible builds, we might want a fixed date or based on README mod time.
-    # But for simplicity, let's use a dummy date for now, or just keep the sample's date style.
-    # The sample uses 9999-09-29, effectively pinning it. 
-    # Let's use 2024-01-01 plus modal_id as a differentiator if we needed date sorting,
-    # but modal-id suggests we just need unique files.
-    
+def generate_post_content(item, modal_id, img_filename, date_str):
     # We need a filename that Jekyll picks up. 
-    date_str = "2024-01-01" 
+    # Date comes from the main loop
     
     content = f"""---
 layout: default
@@ -108,8 +101,6 @@ modal-id: {modal_id}
 date: {date_str}
 img: generated/{img_filename}
 alt: {item['title']}
-project-date: April 2014
-client: Start Bootstrap
 category: {item['category']}
 description: {item['description']}
 link: {item['link']}
@@ -121,32 +112,45 @@ title: {item['title']}
 async def main():
     items = parse_readme()
     
-    # Clean up old posts
+    # Clean up old posts (both old 'generated-' and new date-based ones if reasonable)
+    # For safety, let's just clean specific known patterns or specific files we track.
+    # But since we are changing the pattern, we'll try to clean what we know.
     if os.path.exists(POSTS_DIR):
-        for f in os.listdir(POSTS_DIR):
-            if f.startswith("generated-"):
-                os.remove(os.path.join(POSTS_DIR, f))
+        import shutil
+        shutil.rmtree(POSTS_DIR)
+        os.makedirs(POSTS_DIR)
+
+    if os.path.exists(IMG_DIR):
+        import shutil
+        shutil.rmtree(IMG_DIR)
+    os.makedirs(IMG_DIR, exist_ok=True)
     
     os.makedirs(POSTS_DIR, exist_ok=True)
     os.makedirs(IMG_DIR, exist_ok=True)
     
-    for idx, item in enumerate(items):
-        # Generate a stable ID based on title using hashlib (std hash is not stable)
-        # using integer modulo 1000000 for a shorter but likely unique ID
-        title_hash = hashlib.md5(item['title'].encode('utf-8')).hexdigest()
-        modal_id = int(title_hash, 16) % 1000000
+    start_date = datetime(2000, 1, 1)
+    
+    # User requested same date for all: 2000-01-01
+    date_str = start_date.strftime("%Y-%m-%d")
+
+    for idx, item in enumerate(items, start=1):
+        # User requested content modal-id to be 1, 2, 3... (just the integer)
+        modal_id = idx
         
-        title_slug = re.sub(r'[^a-zA-Z0-9]', '-', item['title']).lower()
+        # Filename pattern needs to be unique and ordered: 2000-01-01-{idx}
+        filename_id = f"{date_str}-{idx}"
         
-        img_filename = f"{title_slug}.png"
+        img_filename = f"{modal_id}.png"
         img_path = os.path.join(IMG_DIR, img_filename)
         
         # Always generate screenshot (overwrite if exists)
         await capture_screenshot(item['link'], img_path)
-            
-        post_content = generate_post_content(item, modal_id, img_filename)
         
-        post_filename = f"generated-{idx}-{title_slug}.markdown"
+        # Pass simple modal_id (int or str)
+        post_content = generate_post_content(item, modal_id, img_filename, date_str)
+        
+        # Filename pattern: YYYY-MM-DD-{idx}.markdown
+        post_filename = f"{filename_id}.markdown"
         with open(os.path.join(POSTS_DIR, post_filename), "w", encoding="utf-8") as f:
             f.write(post_content)
         
