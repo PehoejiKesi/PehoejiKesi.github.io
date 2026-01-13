@@ -7,3 +7,5 @@ _site
 
 Gemfile.lock
 __pycache__/
+img/portfolio/generated
+_posts/2000-01-01-*.markdown
