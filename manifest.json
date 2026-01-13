@@ -1,0 +1,20 @@
+{
+  "name": "Pe̍h-ōe-jī Ke-si",
+  "short_name": "POJ Ke-si",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#FCEE0A",
+  "theme_color": "#FCEE0A",
+  "icons": [
+    {
+      "src": "img/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

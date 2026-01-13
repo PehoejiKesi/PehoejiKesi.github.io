@@ -1,6 +1,8 @@
 # Pe̍h-ōe-jī Ke-si
 
 ```text
+Lí ē-tàng chiàu ē-té kiàn-pún kái chit ki tòng-àn, sàng PR lâi. Kî-thaⁿ chu-liāu ē chū-tōng sán-seng.
+
 ## = category
 ### = title
 ```

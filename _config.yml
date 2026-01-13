@@ -57,6 +57,9 @@ credits: 'Kám-siā chē-chē bîn-kan iú-chì, ūi lán Tâi-oân thoân-thón
 markdown: kramdown
 permalink: pretty
 
+plugins:
+  - jekyll-seo-tag
+
 #for posts
 defaults:
   - scope:
