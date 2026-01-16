@@ -19,6 +19,11 @@ description: Android Chhiú-ki-á Tâi-gí Su-ji̍p-hoat.
 link: [http://bit.ly/PhahTaigi-iOS](http://bit.ly/PhahTaigi-iOS)
 description: iOS Tâi-gí Su-ji̍p-hoat.
 
+### Keyman PhahTaigi POJ keyboard (Win/Mac/Linux/Web/Andriod/iOS/Mobile Web)
+
+link: [https://keyman.com/keyboards/taigi_poj](https://keyman.com/keyboards/taigi_poj)
+description: Choân pêⁿ-tâi PhahTaigi POJ for Tâi-gí (Taiwanese) Pe̍h-ōe-jī.
+
 ### Lohankha台語輸入法 (iOS)
 
 link: [https://lohankha.tw/](https://lohankha.tw/)
