@@ -30,6 +30,7 @@ link: [https://taigikeyboard.tw/](https://taigikeyboard.tw/)
 description: 簡單、方便、裝了隨用ê台語齒盤。
 
 ### 信望愛台語客語輸入法 (Windows/Mac)
+
 link: [https://taigi.fhl.net/TaigiIME/](https://taigi.fhl.net/TaigiIME/)
 description: Tiān-náu Tâi-gí Su-ji̍p-hoat.
 
@@ -58,6 +59,11 @@ description: Khòaⁿ Tâi-gí sû, ioh Eng-gí.
 
 link: [https://kesi.poj.tw/LiansipChoa/](https://kesi.poj.tw/LiansipChoa/)
 description: Chè-chō Pe̍h-ōe-jī chhiú-siá liān-si̍p chóa PDF tòng-àn ê ke-si.
+
+### Tâi-gí thiaⁿ-siá liān-si̍p
+
+link: [https://miau715.github.io/POJTest/](https://miau715.github.io/POJTest/)
+description: 台語聽寫練習.
 
 ## Iáⁿ-phìⁿ (影片)
 
