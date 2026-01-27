@@ -19,6 +19,11 @@ description: Android Chhiú-ki-á Tâi-gí Su-ji̍p-hoat.
 link: [http://bit.ly/PhahTaigi-iOS](http://bit.ly/PhahTaigi-iOS)
 description: iOS Tâi-gí Su-ji̍p-hoat.
 
+### Keyman PhahTaigi POJ keyboard
+
+link: [https://keyman.com/keyboards/taigi_poj](https://keyman.com/keyboards/taigi_poj)
+description: Choân pêⁿ-tâi PhahTaigi POJ for Tâi-gí (Taiwanese) Pe̍h-ōe-jī.
+
 ### Lohankha台語輸入法 (iOS)
 
 link: [https://lohankha.tw/](https://lohankha.tw/)
@@ -40,6 +45,11 @@ description: Tiān-náu Tâi-gí Su-ji̍p-hoat.
 
 link: [https://chhoe.taigi.info/](https://chhoe.taigi.info/)
 description: Siōng chē chu-liāu, siōng hó iōng ê Tâi-gí gí-sû chu-liāu khò͘.
+
+### 芋圓台語字典
+
+link: [https://portaly.cc/taro.dict](https://portaly.cc/taro.dict)
+description: 台灣人必備的語言學習App。
 
 ## Giàn-mh (Game)
 
@@ -78,6 +88,13 @@ description: Khòaⁿ iáⁿ-phìⁿ, o̍h Tâi-gí sû.
 
 link: [https://cyberoohim.github.io/tl_poj_extension/](https://cyberoohim.github.io/tl_poj_extension/)
 description: Sûi kā KIP Lô-má-jī Pheng-im Hong-àn choán chò Tâi-oân Pe̍h-ōe-jī (POJ).
+
+## Tē-tô͘ (地圖)
+
+### 台語歐洲地圖
+
+link: [https://www.facebook.com/share/p/1CPsxUTa4z/](https://www.facebook.com/share/p/1CPsxUTa4z/)
+description: 「圖地」製作ê台語歐洲地圖
 
 ## Chu-goân (資源)
 
